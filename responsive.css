@@ -1,0 +1,11 @@
+@media all and (max-width: 1000px) {
+  /*.header {*/
+  /*  height: 70vh;*/
+  /*}*/
+}
+
+@media all and (max-width: 670px) {
+  /*.header {*/
+  /*  height: 40vh;*/
+  /*}*/
+}

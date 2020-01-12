@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Who I am...</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <!--<script type="text/javascript" charset="UTF-8">-->
+  <!--  $('#contact-form').submit(function(event){-->
+      <!--//submit実行を止める-->
+  <!--    event.preventDefault();-->
+  <!--    var $form = $(this);-->
+  <!--    var $button = $form.find('.send-btn');-->
+  <!--    $.ajax({-->
+  <!--      url:$form.attr('action'),-->
+  <!--      type:$form.attr('method'),-->
+  <!--      data: $form.serialize(),-->
+        <!--//10秒でタイムアウト-->
+  <!--      timeout:10000,-->
+        <!--//重複送信を避けるためにボタンを無効化-->
+  <!--      beforeSend: function(xhr, settings) {-->
+  <!--          $button.attr('disabled', true);-->
+  <!--      },-->
+        <!--//完了後ボタンを押せるように-->
+  <!--      complete: function(xhr, textStatus) {-->
+  <!--          $button.attr('disabled', false);-->
+  <!--      }-->
+  <!--    }).done(function(data, textStatus, jqXHR){-->
+        <!--// 成功時の処理-->
+        <!--//フォームを初期化-->
+  <!--      $form[0].reset();-->
+  <!--      $(".contact-result").text(data);-->
+  <!--      $(".contact-result").slideToggle(200);-->
+  <!--      $(".contact-result").delay(3000).slideToggle(200);-->
+  <!--    }).fail(function(jqXHR, textStatus, errorThrown){-->
+        <!--失敗時の処理-->
+  <!--      $(".contact-result").text("エラーが発生しました。ステータス：" + jqXHR.status);-->
+  <!--      $(".contact-result").slideToggle(200);-->
+  <!--      $(".contact-result").delay(3000).slideToggle(200);-->
+  <!--    });-->
+  <!--  });-->
+  <!--</script>-->
+</head>
+
+<body>
+  <header class="header">
+    <p class="site-title-sub">----- my portfolio -----</p>
+    <h1 class="site-title">Who I am...</h1>
+    <p class="site-description">check out my career and some of my works.</p>
+    <div class="buttons">
+      <a class="button" href="#reasons">WHAT I'M LOOKING FOR</a>
+      <a class="button" href="#career">LATEST CAREER</a>
+      <a class="button" href="#works">MY WORKS</a>
+      <!--<a class="button button-orange" href="#contact">SEND MESSAGE</a>-->
+      <a class="button button-orange" href="mailto:nrkktok@gmail.com">Drop Me a LINE</a>
+    </div>
+  </header>
+
+  <section class="reasons" id="reasons">
+    <h2 class="heading">3 REASONS WHY I'M LOOKING FOR A NEW JOB</h2>
+    <dev class="reasons-text">
+      <h3>職場環境</h3>
+      <ul>
+        <li>同僚同士お互いを尊重し、協力しあうことができる健やかな組織で働きたいと考えています。</li>
+      </ul>
+      <h3>エンジニアとしての価値</h3>
+      <ul>
+        <li>
+          長年PM業務に携わってきており、チームメンバーが成果を出すためのサポートをするPM業務にはやりがいを感じています。
+        </li>
+        <li>
+          現職では金融機関で使われる小中規模システム開発を行っていますが、業務知識不要・レガシー技術メインのツール開発が殆どであることから、
+          エンジニアとしてのキャリアを上げられない怖さを感じています。
+        </li>
+        <li>
+          この物足りなさを少しでも打ち消し、少しでもIT業務で価値ある存在でありたいという気持ちから、
+          2019年12月よりWebアプリケーション作りを行うプログラミングスクールに通い始めました。
+        </li>
+        <li>
+          成果物を<a href="#works">MY WORKS</a>で公開していますので、よろしければ御覧ください。
+        </li>
+        <li class="note">
+          プログラマーとして転職することを考えている訳ではありませんが、PM/PLであっても現在に通用する技術・PG知識は必要だと考えています。
+        </li>
+      </ul>
+      <h3>ライフワークバランス</h3>
+      <ul>
+        <li>良い仕事、社会貢献をして幸せな生活を送るため、「勉強する時間」「運動する体力」「健康的な食事」を大事にすることができる環境に身を置きたいと考えています。</li>
+      </ul>
+    </dev>
+  </section>
+
+  <section class="career" id="career">
+    <h2 class="heading">MY LATEST CAREER</h2>
+    <dev class="career-text">
+      <h3>エンジニア業務</h3>
+      <ul>
+        <li>要件定義から運用保守まで全行程におけるPM/PMO業務</li>
+        <li>1000万円〜6000万円規模のプロジェクト、数百万円程度のツール製造保守を複数掛け持ちながらのマルチタスク遂行</li>
+        <Li>システム提案業務</Li>
+        <Li>各種トラブル支援</Li>
+      </ul>
+      <h3>管理業務</h3>
+      <ul>
+        <h4>品質管理活動</h4>
+        <li>品質管理やリスク管理の基準を策定。各種フォーマット作り。Redmine導入。PowerBI活用。ニアショア開発ルール作り。</li>
+        <h4>教育</h4>
+        <li>部署内教育プラン提案。1on1ミーティング担当。</li>
+        <h4>部署内業務改善</h4>
+        <li>部署内の暗黙知を形式知に変えるためのナレッジマネジメント活動実施。開発プロセスガイドライン作成。レビュー基準策定。各種成果物の定義。提案資料から開発成果物まで各種フォーマット整理。</li>
+        <h4>監査協力</h4>
+        <li>内部監査実施。外部監査協力。IT資産管理推進。</li>
+        <h4>社外広報活動</h4>
+        <li>グループ会社内セミナーでのスピーチ担当。</li>
+        <h4>採用活動</h4>
+        <li>中途採用面接官担当。</li>
+      </ul>
+    </dev>
+  </section>
+
+  <section class="works" id="works">
+    <h2 class="heading">MY WORKS</h2>
+    <div class="works-wrapper">
+      <div class="work-box">
+        <img class="work-image" src="images/pictweet.jpg">
+        <div class="work-description">
+          <p>Pictweet<p>
+          <p>写真共有サイト</p>
+          <p>webアプリケーションをゼロから構築</p>
+        </div>
+      </div>
+  
+      <div class="work-box">
+        <img class="work-image" src="images/mooovi.jpg">
+        <div class="work-description">
+          <p>Mooovi<p>
+          <p>映画レビュー投稿サイト</p>
+          <p>スクレイピングを学習</p>
+        </div>
+      </div>
+  
+      <div class="work-box">
+        <img class="work-image" src="images/profy.jpg">
+        <div class="work-description"> 
+          <p>Profy<p>
+          <p>自己紹介サイト</p>
+          <p>メールによる認証機能を学習</p>
+        </div>
+      </div>
+      <div class="work-box">
+        <img class="work-image" src="images/wip.jpg" height="128">
+        <div class="work-description"> 
+          <p>SimpleReader<p>
+          <p>読書管理サイト</p>
+          <p>APIを使った外部データ取得を学習</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<section class="contact" id="contact">-->
+    <!--<h2 class="heading">DROP ME A LINE</h2>-->
+    <!--<form class="contact-form" id="contact-form" action="contact.php" method="post">-->
+    <!--  <input type="text" name="name" placeholder="NAME" required>-->
+    <!--  <input type="email" name="email" placeholder="E-MAIL ADDRESS" required>-->
+    <!--  <textarea name="message" placeholder="MESSAGE"></textarea>-->
+    <!--  <textarea type="text" name="message" placeholder="MESSAGE" required></textarea>-->
+    <!--  <input type="submit" value="SEND" class="send-btn" id="submit">-->
+    <!--  <input type="submit" value="SEND" class="send-btn" id="submit">-->
+    <!--</form>-->
+  <!--</section>-->
+</body>
+</html>
