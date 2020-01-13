@@ -89,9 +89,9 @@ body {
   padding-top: 20px;
 }
 
-.note:before {
-  content: "*";
-}
+/*.note:before {*/
+/*  content: "*";*/
+/*}*/
 
 .career {
   /*height: 100vh;*/
