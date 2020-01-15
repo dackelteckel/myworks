@@ -152,6 +152,10 @@ body {
 /*  display: inline-block;*/
 }
 
+.sample-data-info {
+  align: left;  
+}
+
 .button-ghost {
   border: 2px solid #fff;
   background-color: rgba(255, 255, 255, 0.15);
