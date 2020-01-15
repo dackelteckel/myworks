@@ -150,10 +150,10 @@ body {
 /*  margin-top: 20px;*/
 /*  padding: 3px;*/
 /*  display: inline-block;*/
-}
+/*}*/
 
 .sample-data-info {
-  align: left;  
+  text-align: left;  
 }
 
 .button-ghost {
