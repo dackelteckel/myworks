@@ -116,9 +116,16 @@ body {
 }
 
 .works {
-  height: 100vh;
+  /*height: 100vh;*/
   background-color: #383634;
   padding: 80px 0 10px;
+}
+
+.works-text {
+  text-align: left;
+  width: 1000px;
+  margin: 60px auto 0;
+  line-height: 2.5;
 }
 
 .works-wrapper {
