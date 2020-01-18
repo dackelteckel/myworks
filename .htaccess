@@ -1,4 +1,5 @@
 AuthType Basic
 AuthName "Input your ID and Password."
-AuthUserFile /home/.htpasswd
+# AuthUserFile /home/.htpasswd
+AuthUserFile /home/myworks/.htpasswd
 require valid-user
