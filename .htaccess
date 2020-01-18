@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Input your ID and Password."
-AuthUserFile /dackelteckelmyworks/.htpasswd
+AuthUserFile /dackelteckel/myworks/.htpasswd
 require valid-user
