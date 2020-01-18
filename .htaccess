@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Input your ID and Password."
+AuthUserFile /myworks/.htpasswd
+require valid-user
